@@ -1,0 +1,11 @@
+
+
+#sort words from longest to shortest
+awk '{ print length($0) " " $0; }' dic.txt | sort -r -n | cut -d ' ' -f 2-
+
+#in a text.txt, change every instance of a word appearing in dic.txt to the hex value on the same line in hex.txt
+paste dic.txt hex.txt | while read n k; do sed -i "s/$n/$k /g" text.txt; done
+
+#inverts words in text.txt so that the first word is the last one, etc.
+cat text.txt | awk '{for(k=NF; k; k--) {printf("%s ", $(k)) }; print ""}' > text_inverted.txt
+

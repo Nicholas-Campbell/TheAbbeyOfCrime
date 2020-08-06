@@ -1,0 +1,97 @@
+SECRETUM FINIS AFRICAE, MANUS SUPRA XXX AGE PRIMUM ET SEPTIMUM DE QUATUOR.
+WELCOME TO THIS ABBEY, BROTHER. FOLLOW ME, SOMETHING TERRIBLE HAS HAPPENED.
+I>M AFRAID THAT ONE OF THE MONKS HAS COMMITTED A CRIME. YOU MUST FIND HIM BEFORE BERNARD GUI ARRIVES, SO THAT THE NAME OF THE ABBEY ISN>T TAINTED.
+YOU MUST OBEY MY ORDERS AND THE RULES OF THE ABBEY, AND ATTEND SERVICES AND MEALS. YOU MUST STAY IN YOUR CELL AT NIGHT.
+DROP VENANTIUS> MANUSCRIPT OR I WILL WARN THE ABBOT.
+GIVE ME THE MANUSCRIPT, BROTHER WILLIAM.
+YOU>RE LATE, BROTHER WILLIAM.
+THIS IS YOUR CELL. I HAVE TO GO.
+YOU MUST FOLLOW ME.
+YOU MUST LEAVE THE ABBEY, BROTHER.
+I WILL WARN THE ABBOT.
+WE HAVE TO GO TO THE CHURCH, MASTER.
+WE HAVE TO GO TO THE REFECTORY, MASTER.
+YOU MAY RETIRE TO YOUR CELLS.
+YOU DIDN>T OBEY MY ORDERS! LEAVE THIS ABBEY FOREVER.
+LISTEN, BROTHER. I HAVE FOUND A STRANGE BOOK IN MY CELL.
+GO TO YOUR CELL, BROTHER WILLIAM.
+BERNARD HAS ARRIVED. YOU MUST STOP YOUR INVESTIGATION.
+SHALL WE REST, MASTER?
+WE NEED A LAMP, MASTER.
+COME HERE, BROTHER WILLIAM.
+BROTHERS, VENANTIUS HAS BEEN MURDERED.
+THE LIBRARY IS A SECRET PLACE; ONLY MALACHI HAS ACCESS TO IT. YOU MAY GO.
+LET US PRAY.
+BROTHERS, BERENGAR IS MISSING. I FEAR THAT ANOTHER CRIME HAS BEEN COMMITTED.
+YOU MAY EAT, BROTHERS.
+BROTHERS, BERENGAR HAS BEEN FOUND MURDERED.
+COME WITH ME, BROTHER WILLIAM, WE MUST FIND SEVERINUS.
+DEAR GOD... SEVERINUS HAS BEEN MURDERED AND LOCKED IN HERE.
+BERNARD WILL LEAVE THE ABBEY TODAY.
+YOU MUST LEAVE THE ABBEY TOMORROW.
+IT WAS TRUE; IT HAD THE POWER OF A THOUSAND SCORPIONS!
+MALACHI IS DEAD.
+IT>S YOU, WILLIAM... COME HERE. I HAVE BEEN WAITING FOR YOU. HERE IS YOUR PRIZE.
+YOU HAVE FALLEN INTO THE TRAP AND DEATH AWAITS YOU, BROTHER WILLIAM...
+VENERABLE JORGE, YOU CAN>T SEE IT, BUT MY MASTER IS WEARING GLOVES. HE CAN>T MOISTEN HIS FINGER TO LEAF THROUGH THE PAGES, SO THE POISON YOU PUT ON THEM WON>T PASS TO HIS MOUTH.
+HE>S EATING THE BOOK, MASTER!
+YOU MUST LEAVE THE ABBEY NOW.
+IT>S STRANGE, BROTHER WILLIAM. BERENGAR>S HANDS AND TONGUE WERE COVERED IN BLACK SPOTS.
+IT WILL SOON BE DAWN, MASTER.
+THE LAMP IS RUNNING OUT OF OIL.
+YOU HAVE INVADED MY CELL!
+THE LAMP IS OUT OF OIL.
+WE WILL NEVER FIND OUR WAY OUT OF HERE!
+WAIT, BROTHER.
+TAKE YOUR PLACE, BROTHER WILLIAM.
+THIS IS THE SECOND BOOK OF ARISTOTLE>S POETICS. NOW YOU WILL UNDERSTAND WHY I HAD TO GUARD IT. EVERY WORD WRITTEN BY THE PHILOSOPHER DESTROYS A PART OF THE TEACHINGS OF CHRIST. MY ACTIONS ARE THE WILL OF THE LORD... READ IT WELL, BROTHER WILLIAM. I WILL SHOW IT TO YOU TOO, BOY... AFTERWARD.
+IT WAS A GOOD IDEA, WAS IT NOT? BUT IT>S TOO LATE NOW.
+I WANT YOU TO MEET THE WISEST AND OLDEST MAN IN THE ABBEY.
+VENERABLE JORGE, THE MAN STANDING BEFORE YOU IS BROTHER WILLIAM, OUR GUEST.
+YOU>RE VERY WELCOME, VENERABLE BROTHER; LISTEN TO MY WORDS. THE WAYS OF THE ANTICHRIST ARE SLOW AND TORTUOUS. HE ARRIVES WHEN WE DON>T EXPECT HIM. DON>T WASTE YOUR LAST DAYS!
+I>M SORRY, VENERABLE BROTHER, YOU CAN>T ENTER THE LIBRARY.
+IF YOU WISH, BERENGAR CAN SHOW YOU THE SCRIPTORIUM.
+THE BEST SCRIBES IN THE WEST WORK HERE.
+VENANTIUS WORKED HERE.
+VENERABLE BROTHER, I AM SEVERINUS AND I AM IN CHARGE OF THE INFIRMARY. I MUST WARN YOU THAT STRANGE THINGS ARE HAPPENING IN THIS ABBEY. SOMEONE DOESN>T WANT THE MONKS TO DECIDE FOR THEMSELVES WHAT THEY SHOULD KNOW.
+
+
+----------------
+
+
+ Having reached the end of my poor sinner's life, waiting to be lost in the bottomless pit of silent and deserted divinity, confined now with my heavy, ailing body in this cell in the dear monastery of Melk, I prepare to leave on this parchment my testimony as to the wondrous and terrible events that I happened to observe in my youth.
+ 
+ May the Lord grant me the grace to be the transparent witness of the occurrences that took place in the abbey whose name it is only right and pious now to omit, toward the end of the year of our Lord 1327, when my father decided to place me under the direction of a learned Franciscan, Brother William of Baskerville, about to undertake a mission that would lead him to famous cities and ancient abbeys. Thus I became William's scribe and disciple at the same time, nor did I ever regret it, because with him I was witness to events worthy of being handed down, as I am now doing, to those who will come after us.
+
+ And so, after I had come to know my master day by day, we reached the foot of the hill on which the abbey stood. And it is time for my story to approach it, as we did then, and may my hand remain steady as I prepare to tell what happened.
+
+ author:
+     Paco Menendez 
+
+ graphics and cover:
+     Juan Delcan 
+
+ copyright:
+     Opera Soft
+
+
+------------------
+
+
+ Disfigured by anxiety, by the menace of the poison now flowing abundantly through his veins, the venerable figure of the old man now seemed disgusting and grotesque.
+
+ We could have taken him calmly, but we fell on him with violence; he writhed, clasped his hands on his chest to defend the volume; I grasped him with my left hand while with my right I tried to hold the lamp high, but I grazed his face with the flame, he sensed the heat, let out a muffled cry, almost a roar, as bits of paper spilled from his mouth, and his right hand let go of the volume, darted toward the lamp, and abruptly tore it from me, flinging it away...
+
+ The oil spilled out, the fire immediately seized a fragile parchment, which blazed up like a bundle of dry twigs. Everything happened in a few moments, as if for centuries those ancient pages had been yearning for arson and were rejoicing in the sudden satisfaction of an immemorial thirst for ecpyrosis.
+
+ The Abbey burned for three days and three nights, and the last efforts were of no avail.
+
+ On the third day, when the wounded had been treated and the corpses had been buried, the monks and all the others collected their belongings and abandoned the still-smoking abbey, as a place accursed.
+
+ William and I left those parts on two horses we found astray in the woods. When we came to Munich, I had to take leave of my good master, amid many tears. He gave me much good advice about my future studies, embraced me with a father's tenderness and dismissed me. I never saw him again.
+
+ The more I repeat to myself the story, the less I manage to understand whether in it there is a design that goes beyond the natural sequence of the events and the times that connect them. And it is a hard thing for this old monk, on the threshold of death, not to know whether the letter he has written contains some hidden meaning, or more than one, or many, or none at all.
+
+ But this inability of mine to see is perhaps the effect of the shadow that the great darkness, as it approaches, is casting on the aged world.
+
+ It is cold in the scriptorium, my thumb aches. I leave this manuscript, I do not know for whom; I no longer know what it is about.

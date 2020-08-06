@@ -1,0 +1,488 @@
+; The Abbey of Crime - dictionary of 'words' used in the messages that are
+; displayed during the game
+;
+; There are a number of restrictions:
+;
+; * Numbering of the words begins from 0, and the last character of each word
+;   must have bit 7 set (by adding 128 to it)
+; * Use upper case letters only
+; * The maximum number of words permitted is 249
+; * Word 6 (AAA) must not be altered, as the game modifies it internally
+; * Apostrophes are substituted with >, and exclamation marks are substituted
+;   with @
+;
+; Each 'word' does not have to be a full word; parts of words can be combined
+; to create a full word by using byte 249 (e.g. 'IT', "'S" -> "IT'S")
+
+org &b580
+
+word0: db 'SECRE','T'+128
+word1: db 'U','M'+128
+word2: db 'FINI','S'+128
+word3: db 'AFRICA','E'+128
+word4: db 'MANU','S'+128
+word5: db 'SUPR','A'+128
+word6: db 'AA','A'+128	; Do not alter this word!
+word7: db 'IDOLU','M'+128
+word8: db 'AG','E'+128
+word9: db 'PRI','M'+128
+word10: db 'E','T'+128
+word11: db 'SEPTI','M'+128
+word12: db 'D','E'+128
+word13: db 'QUATUO','R'+128
+word14: db 'INVESTIGATIO','N'+128
+word15: db 'SCRIPTORIU','M'+128
+word16: db 'PHILOSOPHE','R'+128
+word17: db 'ARISTOTLE>','S'+128
+word18: db 'VENANTIUS','>'+128
+word19: db 'UNDERSTAN','D'+128
+word20: db 'THEMSELVE','S'+128
+word21: db 'MANUSCRIP','T'+128
+word22: db 'ANTICHRIS','T'+128
+word23: db 'VENERABL','E'+128
+word24: db 'VENANTIU','S'+128
+word25: db 'TEACHING','S'+128
+word26: db 'SOMETHIN','G'+128
+word27: db 'SEVERINU','S'+128
+word28: db 'SCORPION','S'+128
+word29: db 'REFECTOR','Y'+128
+word30: db 'INFIRMAR','Y'+128
+word31: db 'HAPPENIN','G'+128
+word32: db 'COMMITTE','D'+128
+word33: db 'AFTERWAR','D'+128
+word34: db 'TORTUOU','S'+128
+word35: db 'TOMORRO','W'+128
+word36: db 'THOUSAN','D'+128
+word37: db 'TERRIBL','E'+128
+word38: db 'STANDIN','G'+128
+word39: db 'SERVICE','S'+128
+word40: db 'MURDERE','D'+128
+word41: db 'HAPPENE','D'+128
+word42: db 'DESTROY','S'+128
+word43: db 'BERENGA','R'+128
+word44: db 'WRITTE','N'+128
+word45: db 'WILLIA','M'+128
+word46: db 'WELCOM','E'+128
+word47: db 'WEARIN','G'+128
+word48: db 'WAITIN','G'+128
+word49: db 'THROUG','H'+128
+word50: db 'TAINTE','D'+128
+word51: db 'STRANG','E'+128
+word52: db 'SOMEON','E'+128
+word53: db 'SCRIBE','S'+128
+word54: db 'RUNNIN','G'+128
+word55: db 'POETIC','S'+128
+word56: db 'MOISTE','N'+128
+word57: db 'MISSIN','G'+128
+word58: db 'MALACH','I'+128
+word59: db 'LIBRAR','Y'+128
+word60: db 'INVADE','D'+128
+word61: db 'FOREVE','R'+128
+word62: db 'DOESN>','T'+128
+word63: db 'COVERE','D'+128
+word64: db 'BROTHE','R'+128
+word65: db 'BERNAR','D'+128
+word66: db 'ARRIVE','S'+128
+word67: db 'ARRIVE','D'+128
+word68: db 'ANOTHE','R'+128
+word69: db 'ACTION','S'+128
+word70: db 'YOU>R','E'+128
+word71: db 'WORKE','D'+128
+word72: db 'WISES','T'+128
+word73: db 'TONGU','E'+128
+word74: db 'THING','S'+128
+word75: db 'SHOUL','D'+128
+word76: db 'SECRE','T'+128
+word77: db 'SECON','D'+128
+word78: db 'RETIR','E'+128
+word79: db 'POISO','N'+128
+word80: db 'ORDER','S'+128
+word81: db 'OLDES','T'+128
+word82: db 'MASTE','R'+128
+word83: db 'LOCKE','D'+128
+word84: db 'LISTE','N'+128
+word85: db 'GLOVE','S'+128
+word86: db 'FOLLO','W'+128
+word87: db 'FINGE','R'+128
+word88: db 'FALLE','N'+128
+word89: db 'EXPEC','T'+128
+word90: db 'EATIN','G'+128
+word91: db 'DIDN>','T'+128
+word92: db 'DECID','E'+128
+word93: db 'CHURC','H'+128
+word94: db 'CHRIS','T'+128
+word95: db 'CHARG','E'+128
+word96: db 'BEFOR','E'+128
+word97: db 'AWAIT','S'+128
+word98: db 'ATTEN','D'+128
+word99: db 'AFRAI','D'+128
+word100: db 'ACCES','S'+128
+word101: db 'WON>','T'+128
+word102: db 'WAST','E'+128
+word103: db 'TODA','Y'+128
+word104: db 'SPOT','S'+128
+word105: db 'SORR','Y'+128
+word106: db 'SHAL','L'+128
+word107: db 'RULE','S'+128
+word108: db 'PRIZ','E'+128
+word109: db 'PRA','Y'+128
+word110: db 'POWE','R'+128
+word111: db 'PLAC','E'+128
+word112: db 'PAGE','S'+128
+word113: db 'NIGH','T'+128
+word114: db 'NEVE','R'+128
+word115: db 'MOUT','H'+128
+word116: db 'MONK','S'+128
+word117: db 'MEAL','S'+128
+word118: db 'LEAV','E'+128
+word119: db 'JORG','E'+128
+word120: db 'ISN>','T'+128
+word121: db 'HAND','S'+128
+word122: db 'GUES','T'+128
+word123: db 'GUAR','D'+128
+word124: db 'FOUN','D'+128
+word125: db 'EVER','Y'+128
+word126: db 'ENTE','R'+128
+word127: db 'DON>','T'+128
+word128: db 'DEAT','H'+128
+word129: db 'CRIM','E'+128
+word130: db 'CAN>','T'+128
+word131: db 'BLAC','K'+128
+word132: db 'ABBO','T'+128
+word133: db 'ABBE','Y'+128
+word134: db 'YOU','R'+128
+word135: db 'WOR','K'+128
+word136: db 'WOR','D'+128
+word137: db 'WIT','H'+128
+word138: db 'WIS','H'+128
+word139: db 'WIL','L'+128
+word140: db 'WHE','N'+128
+word141: db 'WHA','T'+128
+word142: db 'WES','T'+128
+word143: db 'WER','E'+128
+word144: db 'WEL','L'+128
+word145: db 'WAR','N'+128
+word146: db 'WAN','T'+128
+word147: db 'WAI','T'+128
+word148: db 'VER','Y'+128
+word149: db 'TRU','E'+128
+word150: db 'TRA','P'+128
+word151: db 'THI','S'+128
+word152: db 'THE','Y'+128
+word153: db 'THE','M'+128
+word154: db 'THA','T'+128
+word155: db 'TAK','E'+128
+word156: db 'STO','P'+128
+word157: db 'STA','Y'+128
+word158: db 'SOO','N'+128
+word159: db 'SLO','W'+128
+word160: db 'SHO','W'+128
+word161: db 'RES','T'+128
+word162: db 'REA','D'+128
+word163: db 'PAS','S'+128
+word164: db 'PAR','T'+128
+word165: db 'ONL','Y'+128
+word166: db 'OBE','Y'+128
+word167: db 'NEE','D'+128
+word168: db 'NAM','E'+128
+word169: db 'MUS','T'+128
+word170: db 'MEE','T'+128
+word171: db 'LOR','D'+128
+word172: db 'LEA','F'+128
+word173: db 'LAT','E'+128
+word174: db 'LAS','T'+128
+word175: db 'LAM','P'+128
+word176: db 'KNO','W'+128
+word177: db 'INT','O'+128
+word178: db 'IDE','A'+128
+word179: db 'HER','E'+128
+word180: db 'HAV','E'+128
+word181: db 'GOO','D'+128
+word182: db 'GIV','E'+128
+word183: db 'FIN','D'+128
+word184: db 'FEA','R'+128
+word185: db 'DRO','P'+128
+word186: db 'DEA','R'+128
+word187: db 'DEA','D'+128
+word188: db 'DAY','S'+128
+word189: db 'DAW','N'+128
+word190: db 'COM','E'+128
+word191: db 'CEL','L'+128
+word192: db 'BOO','K'+128
+word193: db 'BES','T'+128
+word194: db 'BEE','N'+128
+word195: db 'YO','U'+128
+word196: db 'WH','Y'+128
+word197: db 'WA','Y'+128
+word198: db 'WA','S'+128
+word199: db 'TO','O'+128
+word200: db 'TH','E'+128
+word201: db 'SE','E'+128
+word202: db 'PU','T'+128
+word203: db 'OU','T'+128
+word204: db 'OU','R'+128
+word205: db 'ON','E'+128
+word206: db 'OI','L'+128
+word207: db 'NO','W'+128
+word208: db 'NO','T'+128
+word209: db 'MA','Y'+128
+word210: db 'MA','N'+128
+word211: db 'LE','T'+128
+word212: db 'I>','M'+128
+word213: db 'HI','S'+128
+word214: db 'HI','M'+128
+word215: db 'HA','S'+128
+word216: db 'HA','D'+128
+word217: db 'GU','I'+128
+word218: db 'GO','D'+128
+word219: db 'FO','R'+128
+word220: db 'EA','T'+128
+word221: db 'CA','N'+128
+word222: db 'BU','T'+128
+word223: db 'BO','Y'+128
+word224: db 'AR','E'+128
+word225: db 'AN','D'+128
+word226: db 'W','E'+128
+word227: db 'U','S'+128
+word228: db 'T','O'+128
+word229: db 'S','O'+128
+word230: db 'O','R'+128
+word231: db 'O','N'+128
+word232: db 'O','F'+128
+word233: db 'M','Y'+128
+word234: db 'M','E'+128
+word235: db 'I','T'+128
+word236: db 'I','S'+128
+word237: db 'I','N'+128
+word238: db 'I','F'+128
+word239: db 'H','E'+128
+word240: db 'G','O'+128
+word241: db 'B','Y'+128
+word242: db 'A','T'+128
+word243: db 'A','M'+128
+word244: db 'I'+128
+word245: db 'B','E'+128
+word246: db 'A'+128
+word247: db 'S'+128
+word248: db '>','S'+128
+
+; Encoded text used in scrolling messages
+;
+; Each byte represents the number of the corresponding word in the dictionary.
+; The following bytes are also used:
+;
+; * 249 (&F9) - do not add a space after the current word
+; * 250 (&FA) - inverted question mark (¿)
+; * 251 (&FB) - question mark (?)
+; * 252 (&FC) - semicolon (;)
+; * 253 (&FD) - full stop (.)
+; * 254 (&FE) - comma (,)
+; * 255 (&FF) - end of message
+
+org &bb00
+
+; Message 0 - SECRETUM FINIS AFRICAE, MANUS SUPRA AAA IDOLUM AGE PRIMUM ET
+;  SEPTIMUM DE QUATUOR
+db 0,249,1,2,3,254,4,5,6,7,8,9,249,1,10,11,249,1,12,13,255
+
+; Message 1 - WELCOME TO THIS ABBEY, BROTHER. FOLLOW ME, SOMETHING TERRIBLE HAS
+;  HAPPENED.
+db 46,228,151,133,254,64,253,86,234,254,26,37,215,41,253,255
+
+; Message 2 - I'M AFRAID THAT ONE OF THE MONKS HAS COMMITTED A CRIME. YOU MUST
+;  FIND HIM BEFORE BERNARD GUI ARRIVES, SO THAT THE NAME OF THE ABBEY ISN'T
+;  TAINTED.
+db 212,99,154,205,232,200,116,215,32,246,129,253,195,169,183,214,96,65,217,66
+db 254,229,154,200,168,232,200,133,120,50,253,255
+
+; Message 3 - YOU MUST OBEY MY ORDERS AND THE RULES OF THE ABBEY, AND ATTEND
+;  SERVICES AND MEALS. YOU MUST STAY IN YOUR CELL AT NIGHT.
+db 195,169,166,233,80,225,200,107,232,200,133,254,225,98,39,225,117,253,195,169
+db 157,237,134,191,242,113,253,255
+
+; Message 4 - DROP VENANTIUS' MANUSCRIPT OR I WILL WARN THE ABBOT.
+db 185,18,21,230,244,139,145,200,132,253,255
+
+; Message 5 - GIVE ME THE MANUSCRIPT, BROTHER WILLIAM.
+db 182,234,200,21,254,64,45,253,255
+
+; Message 6 - YOU'RE LATE, BROTHER WILLIAM.
+db 70,173,254,64,45,253,255
+
+; Message 7 - THIS IS YOUR CELL. I HAVE TO GO.
+db 151,236,134,191,253,244,180,228,240,253,255
+
+; Message 8 - YOU MUST FOLLOW ME.
+db 195,169,86,234,253,255
+
+; Message 9 - YOU MUST LEAVE THE ABBEY, BROTHER.
+db 195,169,118,200,133,254,64,253,255
+
+; Message 10 - I WILL WARN THE ABBOT.
+db 244,139,145,200,132,253,255
+
+; Message 11 - WE HAVE TO GO TO THE CHURCH, MASTER.
+db 226,180,228,240,228,200,93,254,82,253,255
+
+; Message 12 - WE HAVE TO GO TO THE REFECTORY, MASTER.
+db 226,180,228,240,228,200,29,254,82,253,255
+
+; Message 13 - YOU MAY RETIRE TO YOUR CELLS.
+db 195,209,78,228,134,191,249,247,253,255
+
+; Message 14 - YOU DIDN'T OBEY MY ORDERS! LEAVE THIS ABBEY FOREVER.
+db 195,91,166,233,80,250,118,151,133,61,253,255
+
+; Message 15 - LISTEN, BROTHER. I HAVE FOUND A STRANGE BOOK IN MY CELL.
+db 84,254,64,253,244,180,124,246,51,192,237,233,191,253,255
+
+; Message 16 - GO TO YOUR CELL, BROTHER WILLIAM.
+db 240,228,134,191,254,64,45,253,255
+
+; Message 17 - BERNARD HAS ARRIVED. YOU MUST STOP YOUR INVESTIGATION.
+db 65,215,67,253,195,169,156,134,14,253,255
+
+; Message 18 - SHALL WE REST, MASTER?
+db 106,226,161,254,82,251,255
+
+; Message 19 - WE NEED A LAMP, MASTER.
+db 226,167,246,175,254,82,253,255
+
+; Message 20 - COME HERE, BROTHER WILLIAM.
+db 190,179,254,64,45,253,255
+
+; Message 21 - BROTHERS, VENANTIUS HAS BEEN MURDERED.
+db 64,249,247,254,24,215,194,40,253,255
+
+; Message 22 - THE LIBRARY IS A SECRET PLACE; ONLY MALACHI HAS ACCESS TO IT.
+;  YOU MAY GO.
+db 200,59,236,246,76,111,252,165,58,215,100,228,235,253,195,209,240,253,255
+
+; Message 23 - LET US PRAY.
+db 211,227,109,253,255
+
+; Message 24 - BROTHERS, BERENGAR IS MISSING. I FEAR THAT ANOTHER CRIME HAS
+;  BEEN COMMITTED.
+db 64,249,247,254,43,236,57,253,244,184,154,68,129,215,194,32,253,255
+
+; Message 25 - YOU MAY EAT, BROTHERS.
+db 195,209,220,254,64,249,247,253,255
+
+; Message 26 - BROTHERS, BERENGAR HAS BEEN FOUND MURDERED.
+db 64,249,247,254,43,215,194,124,40,253,255
+
+; Message 27 - COME WITH ME, BROTHER WILLIAM, WE MUST FIND SEVERINUS.
+db 190,137,234,254,64,45,254,226,169,183,27,253,255
+
+; Message 28 - DEAR GOD... SEVERINUS HAS BEEN MURDERED AND LOCKED IN HERE.
+db 186,218,253,253,253,27,215,194,40,225,83,237,179,253,255
+
+; Message 29 - BERNARD WILL LEAVE THE ABBEY TODAY.
+db 65,139,118,200,133,103,253,255
+
+; Message 30 - YOU MUST LEAVE THE ABBEY TOMORROW.
+db 195,169,118,200,133,35,253,255
+
+; Message 31 - IT WAS TRUE; IT HAD THE POWER OF A THOUSAND SCORPIONS!
+db 235,198,149,252,235,216,200,110,232,246,36,28,250,255
+
+; Message 32 - MALACHI IS DEAD.
+db 58,236,187,253,255
+
+; Message 33 - IT'S YOU, WILLIAM... COME HERE. I HAVE BEEN WAITING FOR YOU.
+;  HERE IS YOUR PRIZE.
+db 235,249,248,195,254,45,253,253,253,190,179,253,244,180,194,48,219,195,253
+db 179,236,134,108,253,255
+
+; Message 34 - YOU HAVE FALLEN INTO THE TRAP AND DEATH AWAITS YOU, BROTHER
+;  WILLIAM...
+db 195,180,88,177,200,150,225,128,97,195,254,64,45,253,253,253,255
+
+; Message 35 - VENERABLE JORGE, YOU CAN'T SEE IT, BUT MY MASTER IS WEARING
+;  GLOVES. HE CAN'T MOISTEN HIS FINGER TO LEAF THROUGH THE PAGES, SO THE POISON
+;  YOU PUT ON THEM WON'T PASS TO HIS MOUTH.
+db 23,119,254,195,130,201,235,254,222,233,82,236,47,85,253,239,130,56,213,87
+db 228,172,49,200,112,254,229,200,79,195,202,231,153,101,163,228,213,115,253
+db 255
+
+; Message 36 - HE'S EATING THE BOOK, MASTER!
+db 239,249,248,90,200,192,254,82,250,255
+
+; Message 37 - YOU MUST LEAVE THE ABBEY NOW.
+db 195,169,118,200,133,207,253,255
+
+; Message 38 - IT'S STRANGE, BROTHER WILLIAM. BERENGAR'S HANDS AND TONGUE WERE
+;  COVERED IN BLACK SPOTS.
+db 235,249,248,51,254,64,45,253,43,249,248,121,225,73,143,63,237,131,104,253
+db 255
+
+; Message 39 - IT WILL SOON BE DAWN, MASTER.
+db 235,139,158,245,189,254,82,253,255
+
+; Message 40 - THE LAMP IS RUNNING OUT OF OIL.
+db 200,175,236,54,203,232,206,253,255
+
+; Message 41 - YOU HAVE INVADED MY CELL!
+db 195,180,60,233,191,250,255
+
+; Message 42 - THE LAMP IS OUT OF OIL.
+db 200,175,236,203,232,206,253,255
+
+; Message 43 - WE WILL NEVER FIND OUR WAY OUT OF HERE!
+db 226,139,114,183,204,197,203,232,179,250,255
+
+; Message 44 - WAIT, BROTHER.
+db 147,254,64,253,255
+
+; Message 45 - TAKE YOUR PLACE, BROTHER WILLIAM.
+db 155,134,111,254,64,45,253,255
+
+; Message 46 - THIS IS THE SECOND BOOK OF ARISTOTLE'S POETICS. NOW YOU WILL
+;  UNDERSTAND WHY I HAD TO GUARD IT. EVERY WORD WRITTEN BY THE PHILOSOPHER
+;  DESTROYS A PART OF THE TEACHINGS OF CHRIST. MY ACTIONS ARE THE WILL OF THE
+;  LORD... READ IT WELL, BROTHER WILLIAM. I WILL SHOW IT TO YOU TOO, BOY...
+;  AFTERWARD.
+db 151,236,200,77,192,232,17,55,253,207,195,139,19,196,244,216,228,123,235,253
+db 125,136,44,241,200,16,42,246,164,232,200,25,232,94,253,233,69,224,200,139
+db 232,200,171,253,253,253,162,235,144,254,64,45,253,244,139,160,235,228,195
+db 199,254,223,253,253,253,33,253,255
+
+; Message 47 - IT WAS A GOOD IDEA, WAS IT NOT? BUT IT'S TOO LATE NOW.
+db 235,198,246,181,178,254,198,235,208,251,222,235,249,248,199,173,207,253,255
+
+; Message 48 - I WANT YOU TO MEET THE WISEST AND OLDEST MAN IN THE ABBEY.
+db 244,146,195,228,170,200,72,225,81,210,237,200,133,253,255
+
+; Message 49 - VENERABLE JORGE, THE MAN STANDING BEFORE YOU IS BROTHER WILLIAM,
+;  OUR GUEST.
+db 23,119,254,200,210,38,96,195,236,64,45,254,204,122,253,255
+
+; Message 50 - YOU'RE VERY WELCOME, VENERABLE BROTHER; LISTEN TO MY WORDS. THE
+;  WAYS OF THE ANTICHRIST ARE SLOW AND TORTUOUS. HE ARRIVES WHEN WE DON'T
+;  EXPECT HIM. DON'T WASTE YOUR LAST DAYS!
+db 70,148,46,254,23,64,252,84,228,233,136,249,247,253,200,197,249,247,232,200
+db 22,224,159,225,34,253,239,66,140,226,127,89,214,253,127,102,134,174,188,250
+db 255
+
+; Message 51 - I'M SORRY, VENERABLE BROTHER, YOU CAN'T ENTER THE LIBRARY.
+db 212,105,254,23,64,254,195,130,126,200,59,253,255
+
+; Message 52 - IF YOU WISH, BERENGAR CAN SHOW YOU THE SCRIPTORIUM.
+db 238,195,138,254,43,221,160,195,200,15,253,255
+
+; Message 53 - THE BEST SCRIBES IN THE WEST WORK HERE.
+db 200,193,53,237,200,142,135,179,253,255
+
+; Message 54 - VENANTIUS WORKED HERE.
+db 24,71,179,253,255
+
+; Message 55 - VENERABLE BROTHER, I AM SEVERINUS AND I AM IN CHARGE OF THE
+;  INFIRMARY. I MUST WARN YOU THAT STRANGE THINGS ARE HAPPENING IN THIS ABBEY.
+;  SOMEONE DOESN'T WANT THE MONKS TO DECIDE FOR THEMSELVES WHAT THEY SHOULD
+;  KNOW.
+db 23,64,254,244,243,27,225,244,243,237,95,232,200,30,253,244,169,145,195,154
+db 51,74,224,31,237,151,133,253,52,62,146,200,116,228,92,219,20,141,152,75,176
+db 253,255
+
+; Unused bytes
+ds 111

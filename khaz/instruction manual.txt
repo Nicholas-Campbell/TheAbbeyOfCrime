@@ -1,0 +1,59 @@
+
+
+----THE ABBEY OF CRIME----
+
+
+
+LOARDING INSTRUCTIONS
+
+Make sure your disc drive is configured as drive A, side 1. Type |CPM and press ENTER.
+
+
+
+CONTROLS
+
+William can be controlled with a controller, the keyboard or the cursor keys.
+
+A, UP		Joystick UP		Move forward
+K, LEFT		Joystick LEFT	Turn counterclockwise
+L, RIGHT	Joystick RIGHT	Turn clockwise
+Z, DOWN		Joystick FIRE	Send Adso forward
+SPACE		Joystick DOWN	Drop object
+Y / N						Answer Yes or No
+DEL							Pause and continue
+CTRL+(f0-f8)				Save the current progress in RAM
+SHIFT+(f0-f8)				Load a previously saved game
+CTRL+TAB					Write RAM saves on the disc
+CTRL/SHIFT+f9				record or play a demo game
+
+Press SPACE or DOWN on the controller to skip the introduction.
+
+
+
+MOVING ADSO
+
+Pressing Z, cursor DOWN or FIRE will send Adso in the direction William is facing, until an obstacle is hit. Releasing the key brings Adso back to William. Turning William makes Adso change directions. If Adso encounters an object he can take or a door he can open, he will.
+
+
+
+MANAGING THE INVENTORY
+
+Pressing SPACE or Joystick DOWN drops the leftmost object from the inventory. Walking to an object picks it up and place it in a free spot. William can hold six objects, while his apprentice can hold two (not shown). Some objects can only be carried by either William or Adso, so be sure to try to pick them up with both of them!
+
+
+
+SAVING AND LOADING
+
+Pressing the CONTROL key along with one of the function keys saves the current progress in RAM. There are 9 usable save slots, accessed with the keys f0 to f8. Pressing SHIFT with a function key restores the game stored in that slot.
+
+f9 is a special save slot, in that it holds a whole demo of the game, not only the current progress. Pressing CONTROL+f9 starts the recording: every following input will be recorded in memory. To play a demo, press SHIFT+f9; to exit, press DEL twice.
+
+Progress saved in RAM will disappear as soon as the computer is powered off. To save progress more permanently, press CONTROL and TAB simultaneously. The disc will spin and a cursor will appear in the upper-left corner of the screen. Pressing Y will write the content of the RAM on the disc, while pressing N will cancel the process and resume the game. Restoring games saved in that manner is also done by using SHIFT. Important: the game can only be saved on the game disc. You can have up to 20 different games saved by using both sides of the disc.
+
+
+
+CREDITS
+
+Author: Paco Menéndez. Graphics and illustration: Juan Delcan. © Opera Soft (1987).
+Based on Il nome della rosa, Umberto Eco (1980).
+Translation by William Weaver (1983) and cpcwiki.eu
