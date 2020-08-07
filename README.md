@@ -4,6 +4,8 @@
 
 In October 2017, a user on the [CPCWiki forum](https://www.cpcwiki.eu/forum/) called khaz initiated a project to translate *La Abadía del Crimen* to English, by patching the original Spanish version of the game. With the assistance of other members of the forum, a translation was completed successfully and was released in late November 2017.
 
+![*The Abbey of Crime* loading screen](images/screenshots/AbbeyOfCrimeThe_LoadingScreen.png)
+
 This repository contains a set of Python 3 scripts to help in producing the translated version:
 
 * `extract.py` extracts images and text from an original disk image file of *La Abadía del Crimen*. The images are saved as PNG files and can then be modified using a graphics editor. The text is saved as Z80 assembler source code files, which can be modified using a text editor.
@@ -39,6 +41,8 @@ You should now be able to play the patched versions by opening an Amstrad CPC em
 * If you want to use the patched disk image, open the disk image in drive A of the emulator, then type `|CPM` to load the game.
 * If you want to use the patched snapshot, load the snapshot in the emulator and the game should begin automatically.
 
+Note that *The Abbey of Crime* requires 128KB of memory. It will not work on an Amstrad CPC with only 64KB of memory.
+
 ## Contributors
 
 *The Abbey of Crime* is the result of contributions from several people:
@@ -59,3 +63,8 @@ If you want to find out more about this project and the game, or you have played
 * [Longplay video by Metr81](https://www.youtube.com/watch?v=uDBDAVxwIxo)
 * [Longplay video by Retro Danuart](https://www.youtube.com/watch?v=wpCv8OngE1g)
 * [Map of the abbey and walkthrough (in Spanish)](https://archive.org/download/World_of_Spectrum_June_2017_Mirror/World%20of%20Spectrum%20June%202017%20Mirror.zip/World%20of%20Spectrum%20June%202017%20Mirror/sinclair/games-maps/a/AbadiaDelCrimenLa.jpg) ‒ originally published in *MicroHobby* magazine № 162
+
+## Screenshots
+
+ ![The introduction, using the English text from the novel *The Name of the Rose*](images/screenshots/AbbeyOfCrimeThe_Introduction.png) ![The abbot welcomes you and Adso to the abbey on your arrival](images/screenshots/AbbeyOfCrimeThe_Game_1.png) ![Eating a meal with the other monks](images/screenshots/AbbeyOfCrimeThe_Game_3.png) ![Berengar shows you and Adso around the scriptorium](images/screenshots/AbbeyOfCrimeThe_Game_4.png) ![Wandering around the abbey at night](images/screenshots/AbbeyOfCrimeThe_Game_5.png) ![Severinus wants to tell you something](images/screenshots/AbbeyOfCrimeThe_Game_6.png)
+ 
