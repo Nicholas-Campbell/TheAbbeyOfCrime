@@ -1,6 +1,6 @@
 __pycache__/
 asm/*_es.asm
-bin/
+bin/*
 *.dsk
 *.sna
 pasmo.exe

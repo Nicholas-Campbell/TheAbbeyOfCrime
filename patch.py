@@ -11,7 +11,13 @@ Last updated: 2020-08-06
 from copy import copy, deepcopy
 import os
 import sys
-from PIL import Image
+try:
+	from PIL import Image
+except ModuleNotFoundError as ex:
+	print('The PIL module could not be found. Please check that the Pillow '
+		+ 'library has\n'
+		+ 'been installed.')
+	quit()
 
 from cpcdiskimage import DiskImage
 import cpcimage
@@ -352,7 +358,7 @@ abadia_sna_original = read_game_data_into_snapshot(abadia_dsk,
 abadia_sna_patched = deepcopy(abadia_sna_original)
 
 # Import the new loading screen
-print('\nImporting new loading screen {0}...'.format(
+print('Importing new loading screen {0}...'.format(
 	new_loading_screen_filepath))
 new_loading_screen = Image.open(new_loading_screen_filepath)
 new_loading_screen_data = convert_png_to_cpc_screen(new_loading_screen,
