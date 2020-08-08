@@ -1,6 +1,6 @@
 # The Abbey of Crime
 
-*The Abbey of Crime* is an unofficial English translation of the Spanish Amstrad CPC game *La Abadía del Crimen*, which was released by the software house Opera Soft in 1987. *La Abadía del Crimen* is considered to be one of the finest Spanish games to be released for 8-bit computers, but because it included a lot of text in Spanish, it meant that Amstrad CPC fans were unable to fully appreciate its qualities.
+*The Abbey of Crime* is an unofficial English translation of the Spanish Amstrad CPC game *La Abadía del Crimen*, which was released by the software house Opera Soft in 1987. *La Abadía del Crimen* is considered to be one of the finest Spanish games to be released for 8-bit computers, but because it included a lot of text in Spanish, it meant that Amstrad CPC fans who were unable to understand Spanish could not fully appreciate its qualities.
 
 In October 2017, a user on the [CPCWiki forum](https://www.cpcwiki.eu/forum/) called khaz initiated a project to translate *La Abadía del Crimen* to English, by patching the original Spanish version of the game. With the assistance of other members of the forum, a translation was completed successfully and was released in late November 2017.
 
