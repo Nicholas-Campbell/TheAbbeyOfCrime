@@ -60,8 +60,9 @@ If you want to find out more about this project and the game, or you have played
 * [Announcement on the CPCWiki forum of the release of *The Abbey of Crime*](https://www.cpcwiki.eu/forum/games/la-abadia-del-crimen-the-abbey-of-crime-finally-in-english!/) ‒ the game can be downloaded by following this link
 * [*La Abadía del Crimen* article on Wikipedia](https://en.wikipedia.org/wiki/La_Abad%C3%ADa_del_Crimen)
 * [Video by It's a Pixel Thing about the history of *La Abadía del Crimen*](https://www.youtube.com/watch?v=MdhsqMFRQMo)
-* [Longplay video by Metr81](https://www.youtube.com/watch?v=uDBDAVxwIxo)
-* [Longplay video by Retro Danuart](https://www.youtube.com/watch?v=wpCv8OngE1g)
+* [Longplay video of *La Abadía del Crimen* by Metr81](https://www.youtube.com/watch?v=uDBDAVxwIxo)
+* [Longplay video of *La Abadía del Crimen* by Retro Danuart](https://www.youtube.com/watch?v=wpCv8OngE1g)
+* [Longplay video of *The Abbey of Crime* by Amstrad CPC World](https://www.youtube.com/watch?v=YpGBSjZLvsQ)
 * [Map of the abbey and walkthrough (in Spanish)](https://archive.org/download/World_of_Spectrum_June_2017_Mirror/World%20of%20Spectrum%20June%202017%20Mirror.zip/World%20of%20Spectrum%20June%202017%20Mirror/sinclair/games-maps/a/AbadiaDelCrimenLa.jpg) ‒ originally published in *MicroHobby* magazine № 162
 
 ## Screenshots
